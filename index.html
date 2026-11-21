@@ -34,7 +34,8 @@
         <a href="#home" class="nav-link">Home</a>
         <a href="#showcase3d" class="nav-link">3D Explorer</a>
         <a href="#services" class="nav-link">Services</a>
-        <a href="#memberships" class="nav-link">Memberships</a>
+        <!-- Hidden until January: remove style="display:none;" in January to show again -->
+        <a href="#memberships" class="nav-link" style="display:none;">Memberships</a>
         <a href="#insurance" class="nav-link">Insurance</a>
         <a href="#about" class="nav-link">About Us</a>
         <a href="#work" class="nav-link">Our Work</a>
@@ -566,9 +567,10 @@
   </section>
 
   <!-- ========================================================================
-       4. ANNUAL MEMBERSHIP & PACKAGES (1 YEAR VALIDITY)
+       4. ANNUAL MEMBERSHIP & PACKAGES (HIDDEN UNTIL JANUARY — DO NOT DELETE!)
+       To turn back on in January: remove style="display:none;" from the <section> below
        ======================================================================== -->
-  <section class="section section-alt" id="memberships">
+  <section class="section section-alt" id="memberships" style="display:none;">
     <div class="container">
       <div class="section-head">
         <span class="eyebrow">Package Validity: 1 Year Only</span>
@@ -987,7 +989,7 @@
       <h3 style="font-family:var(--font-display); font-size:1.3rem; margin-bottom:14px;">Studio Policies &amp; General Safety Instructions</h3>
       <ul class="mv-list" style="margin-bottom:16px;">
         <li><strong>Starting Prices &amp; Inspection:</strong> All listed rates are starting prices. Final quote is shared after physical vehicle inspection.</li>
-        <li><strong>Membership Validity:</strong> Washing (₹999), Gold (₹4,999), and Platinum (₹9,999) memberships are valid for 1 Year from purchase.</li>
+        <li style="display:none;"><strong>Membership Validity:</strong> Washing (₹999), Gold (₹4,999), and Platinum (₹9,999) memberships are valid for 1 Year from purchase.</li>
         <li><strong>Free Pick-Up &amp; Drop:</strong> Available up to Chinchwad for qualifying detailing packages.</li>
         <li><strong>Studio Safety Discipline:</strong> Our technicians strictly use safety gear, designated hazardous waste disposal, wheel stoppers, and zero-smoke/zero-alcohol shop floor protocols.</li>
       </ul>
@@ -1023,7 +1025,7 @@
           <button type="button" class="chip" onclick="sendQuickPrompt('Interior detailing prices')">💺 Interior Prices</button>
           <button type="button" class="chip" onclick="sendQuickPrompt('Exterior & PPF prices')">🚘 Exterior &amp; PPF</button>
           <button type="button" class="chip" onclick="sendQuickPrompt('Two wheeler & Bullet detailing')">🏍️ 2-Wheeler / Bullet</button>
-          <button type="button" class="chip" onclick="sendQuickPrompt('1 Year Membership packages')">👑 Memberships</button>
+          <button type="button" class="chip" style="display:none;" onclick="sendQuickPrompt('1 Year Membership packages')">👑 Memberships</button>
           <button type="button" class="chip" onclick="sendQuickPrompt('Accessories & RTO Window Film')">📦 Accessories</button>
           <button type="button" class="chip" onclick="sendQuickPrompt('Free Pick & Drop + New Car DSA')">🚚 Pick-Drop &amp; DSA</button>
         </div>
