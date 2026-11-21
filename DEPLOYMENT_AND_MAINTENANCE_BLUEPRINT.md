@@ -1,21 +1,21 @@
 # 🚀 How to Launch `9inealpha.com` for FREE (GitHub Pages + GoDaddy)
 
-I have already initialized Git inside this folder, committed all your files, and created the **`CNAME`** file for **`9inealpha.com`** under your GitHub account (**`itsyashnahata`**).
+I have already initialized Git inside this folder, committed all your files, and created the **`CNAME`** file for **`9inealpha.com`** under your GitHub account (**`oohyash`**).
 
 Follow these **3 simple steps** (takes less than 3 minutes total):
 
 ---
 
-## STEP 1: Create the Empty Repository on Your GitHub (`itsyashnahata`)
+## STEP 1: Create the Empty Repository on Your GitHub (`oohyash`)
 
-1. Open **[https://github.com/new](https://github.com/new)** in your browser.
+1. Open **[https://github.com/new](https://github.com/new)** in your browser (logged in as **`oohyash`**).
 2. Under **Repository name**, type:
    `9inealpha`
 3. Make sure **Public** is selected *(GitHub Pages is 100% free for Public repositories)*.
 4. Leave "Add a README file" **unchecked** and click the green **"Create repository"** button.
-5. Once created, either tell me **"I created the repo"** here in chat (and I will push the code for you automatically!), OR run these two commands in your VS Code Terminal:
+5. Once created, either tell me **"I created the repo"** here in chat (and I will push the code for you!), OR run these two commands in your VS Code Terminal:
    ```bash
-   git remote add origin https://github.com/itsyashnahata/9inealpha.git
+   git remote add origin https://github.com/oohyash/9inealpha.git
    git push -u origin main
    ```
 
@@ -23,7 +23,7 @@ Follow these **3 simple steps** (takes less than 3 minutes total):
 
 ## STEP 2: Turn On Free GitHub Pages Hosting
 
-1. On your `https://github.com/itsyashnahata/9inealpha` page, click the **Settings** tab (top right gear icon).
+1. On your `https://github.com/oohyash/9inealpha` page, click the **Settings** tab (top right gear icon).
 2. In the left sidebar, click **Pages**.
 3. Under **Build and deployment** → **Branch**:
    - Change **None** to **`main`** (leave the folder as `/ (root)`).
@@ -50,7 +50,7 @@ Look at the GoDaddy screen you have open right now (`https://account.godaddy.com
 4. Now look for the **`CNAME` record** with Name **`www`** in the table and click the **Pencil icon (Edit)** (or **Add New Record** if it's not there):
    - **Type:** `CNAME`
    - **Name:** `www`
-   - **Value:** `itsyashnahata.github.io`
+   - **Value:** `oohyash.github.io`
    - **TTL:** Default → **Save**
 
 ---
