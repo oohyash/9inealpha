@@ -286,7 +286,7 @@ img {
 .hero-content {
   position: relative;
   z-index: 2;
-  max-width: 860px;
+  max-width: 1040px;
   margin: 0 auto;
   text-align: center;
 }
@@ -337,10 +337,19 @@ img {
 
 .hero-actions {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-items: stretch;
   gap: 12px;
-  margin-bottom: 34px;
+  margin: 0 auto 34px;
+  max-width: 980px;
+}
+
+.hero-actions .btn-lg {
+  padding: 13px 20px;
+  font-size: 0.88rem;
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .badge-strip {
@@ -1547,6 +1556,21 @@ img {
   .mv-grid,
   .insurance-banner,
   .connect-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 820px) {
+  .hero-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero-actions {
     grid-template-columns: 1fr;
   }
 }

@@ -259,13 +259,14 @@ function handleAiSubmit(event) {
         `Hi,\nThis is regarding my Car Insurance Renewal at 9ine Alpha Studio.\n` +
         `I am sending the required documents for the quotation:\n1. RC\n2. Current policy\nAny claim last year?: [Yes/No]\n\nPlease share the quotation 🚘💰✨`;
       customWaUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(insText)}`;
-    } else if (q.includes("interior") || q.includes("seat") || q.includes("foam") || q.includes("flood") || q.includes("ozone")) {
+    } else if (q.includes("interior") || q.includes("seat") || q.includes("foam") || q.includes("flood") || q.includes("ozone") || q.includes("carpet")) {
       reply =
         `<strong>Interior Detailing Starting Prices:</strong><br>` +
         `• Interior Deluxe Treatment: <strong>₹2,499</strong><br>` +
         `• Antibacterial 3M Foam Treatment: <strong>₹3,499</strong><br>` +
+        `• Interior Antibacterial Extreme Treatment: <strong>₹4,799</strong><br>` +
         `• Flood Affected Vehicle Cleaning: <strong>₹2,999</strong><br>` +
-        `• Custom: Vacuum ₹99 | Floor/Sanitation ₹199 | Roof ₹399 | Trunk ₹499 | Ozone ₹799 | Seats/Dashboard ₹999.`;
+        `• Custom: Vacuum ₹99 | Sanitation ₹199 | Roof ₹399 | Trunk ₹499 | Ozone ₹799 | Seats/Dashboard ₹999 | Carpet (On Inspection).`;
     } else if (q.includes("exterior") || q.includes("ceramic") || q.includes("ppf") || q.includes("graphene") || q.includes("wrap") || q.includes("wash")) {
       reply =
         `<strong>4-Wheeler Exterior Starting Prices:</strong><br>` +
@@ -275,12 +276,12 @@ function handleAiSubmit(event) {
         `• Synthetic Sealant: <strong>₹2,999</strong> | Wrapping: <strong>₹39,999</strong><br>` +
         `• Windshield / Hard Water / Rat Repellent: <strong>₹1,499</strong><br>` +
         `• Alloy / Headlight: <strong>₹999</strong> | Engine / Rain Repel: <strong>₹499</strong>.`;
-    } else if (q.includes("bike") || q.includes("two") || q.includes("bullet") || q.includes("2w") || q.includes("motorcycle")) {
+    } else if (q.includes("bike") || q.includes("two") || q.includes("2w") || q.includes("motorcycle")) {
       reply =
         `<strong>Two-Wheeler Detailing Starting Prices:</strong><br>` +
         `• Detailed Foam Wash: <strong>₹125</strong> | Sparkling Wash: <strong>₹299</strong><br>` +
         `• Chain Clean & Lube: <strong>₹199</strong> | Deep Detailing: <strong>₹699</strong><br>` +
-        `• Bullet Engine Detailing: <strong>₹3,499</strong><br>` +
+        `• Two-Wheeler Engine Detailing: <strong>₹3,499</strong><br>` +
         `• 2W Ceramic: <strong>₹3,999</strong> | Graphene: <strong>₹4,999</strong> | PPF: <strong>₹7,999</strong>.`;
     } else if (q.includes("member") || q.includes("package") || q.includes("gold") || q.includes("platinum")) {
       reply =
